@@ -36,7 +36,7 @@ const login = (req, res, next) => {
       const token = jwt.sign({ _id: user._id }, jwtSecret, { expiresIn: expiresInSec });
       res.cookie('jwt', token, {
         httpOnly: true,
-        maxAge: expiresInSec * 1000
+        maxAge: expiresInSec * 1000,
       })
         .json({ message: 'Пользователь успешно авторизован.' });
     })
