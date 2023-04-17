@@ -8,10 +8,10 @@
 4. постановка и снятие лайка.
 
 ## Ссылки на проект
-Адрес репозитория: https://github.com/PeachMood/react-mesto-api-full-gha
+Адрес репозитория https://github.com/PeachMood/react-mesto-api-full-gha
 
-IP-адрес: x.x.x.x
+IP 158.160.62.248
 
-Frontend: https://...
+Frontend https://mesto.students.nomoredomains.monster
 
-Backend: https://...
+Backend https://api.mesto.students.nomoredomains.monster
